@@ -348,9 +348,35 @@ line-height: 1.7;
 	color: #878787;
 }
 
+@media (max-width: 767px){
+	.information .info-list li {
+		display: block;
+	}
+}
+
 
 /* End Information */
 
+/* Start Footer  */
+.footer {
+	background-color: #333;
+	color: #EEE;
+}
+
+.footer .copyright,
+.footer .design {
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+}
+
+@media (max-width: 767px) {
+	.footer .copyright,
+	.footer .design {
+		width: 100%;
+	}	
+}
+/* End Footer  */
 
 
 
